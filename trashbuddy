@@ -52,7 +52,7 @@ echo -e "${color_none}" # restore to no color
 handle_params()
 {
 local datetime=$(date "+%b_%d_%Y_%H_%M")
-local trash_parent_dir="~/.trashcan"
+local trash_parent_dir="~/.trashbuddy_trashcan"
 
 # expand $HOME, ${HOME} and ~
 trash_parent_dir=$(echo ${trash_parent_dir} | sed -e "s|^~|${HOME}|g") # replace ~ with expanded ${HOME}
