@@ -1,5 +1,8 @@
 # trash-buddy
 
+Trash Buddy is a file that helps you manage the things you typically discard with rm.
+Trash Buddy performs an mv command to move the item(s) to a trash folder, and keeps a record of the things you discard in a text file.
+
 In your ${HOME}/.bash_profile, add the following:
 <pre>
 trash_buddy_path="/&ltpath on your local machine&gt/trashbuddy"
